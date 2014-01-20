@@ -1,1 +1,30 @@
 @CHARSET "UTF-8";
+/*HEADER BEGIN */
+header {
+    padding: 10px 0;
+}
+.logo {
+    float: left;
+}
+
+.logo h1 {
+    margin: 0;
+}
+/*HEADER END */
+
+
+/*CONTENT BEGIN */
+.features .block {
+    border: 1px solid #ddd;
+    padding: 20px 15px;
+}
+
+.block img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.block p {
+    text-align: justify;
+}
+/*CONTENT END */

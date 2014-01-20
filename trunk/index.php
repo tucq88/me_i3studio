@@ -9,55 +9,107 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hello World</h1>
-        <p><small>Lorem ipsum dolor sit amet</small></p>
-        <nav class="navbar navbar-default" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> 
-                    <span class="icon-bar"></span> 
-                    <span class="icon-bar"></span> 
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Brand</a>
+        <header>
+            <div class="logo">
+                <h1>i3-Studio</h1>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </nav>
+            <ul class="nav nav-pills pull-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </header>
         
-        <!-- main content -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="http://lorempixel.com/1280/400" alt="x">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="http://lorempixel.com/1280/400/people" alt="y">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="http://lorempixel.com/1280/400/business" alt="z">
+                    <div class="carousel-caption"></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> 
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a> 
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> 
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        
+        <br>
+        <div class="well well-lg">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aliquid atque doloribus nemo fuga qui accusantium velit maiores obcaecati laudantium voluptas deleniti id architecto assumenda culpa earum quae nesciunt facilis.</p>
+        </div>
+        
+        <!-- Features -->
+        <div class="row features">
+            <div class="col-lg-4">
+                <div class="block">
+                    <div class="text-center"><img src="http://lorempixel.com/150/150/technics" alt="" /></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate a libero quibusdam nemo sed doloremque nulla deserunt iusto. Autem dolorem debitis perspiciatis a harum animi totam quod delectus accusantium vel.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="block">
+                    <div class="text-center"><img src="http://lorempixel.com/150/150/technics" alt="" /></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate a libero quibusdam nemo sed doloremque nulla deserunt iusto. Autem dolorem debitis perspiciatis a harum animi totam quod delectus accusantium vel.</p>            
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="block">
+                    <div class="text-center"><img src="http://lorempixel.com/150/150/technics" alt="" /></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate a libero quibusdam nemo sed doloremque nulla deserunt iusto. Autem dolorem debitis perspiciatis a harum animi totam quod delectus accusantium vel.</p>
+                </div>
+            </div>
+        </div> <!-- ./ Features -->
+        
+        <!-- Product -->
+        <div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center"><img src="http://lorempixel.com/250/250/technics" alt="" /></div>
+                </div>
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iste minus eligendi nobis mollitia reiciendis ipsam iure inventore deserunt similique? Maiores modi voluptatum error dicta distinctio expedita vel illo quisquam?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iste minus eligendi nobis mollitia reiciendis ipsam iure inventore deserunt similique? Maiores modi voluptatum error dicta distinctio expedita vel illo quisquam?</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center"><img src="http://lorempixel.com/250/250/technics" alt="" /></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iste minus eligendi nobis mollitia reiciendis ipsam iure inventore deserunt similique? Maiores modi voluptatum error dicta distinctio expedita vel illo quisquam?</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iste minus eligendi nobis mollitia reiciendis ipsam iure inventore deserunt similique? Maiores modi voluptatum error dicta distinctio expedita vel illo quisquam?</p>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -67,7 +119,7 @@
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 10]>
         <script src="js/html5shiv.js"></script>
-		<script src="http://webdet.dev/js/placeholder.min.js"></script>
+        <script src="http://webdet.dev/js/placeholder.min.js"></script>
         <script type="text/javascript">
             $(function() {
                 $('input, textarea').placeholder();
