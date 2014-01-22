@@ -1,7 +1,13 @@
 @CHARSET "UTF-8";
+/*TOTAL BEGIN */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*TOTAL END */
+
 /*HEADER BEGIN */
 header {
-    padding: 10px 0;
+    padding: 30px 0;
 }
 .logo {
     float: left;
@@ -14,17 +20,81 @@ header {
 
 
 /*CONTENT BEGIN */
+body {
+    background-color: #FDFDFB;
+}
+.cover-1 {
+    background-color: #3D9970;
+    color: #fff;
+}
+.cover-3 {
+    background-color: #AAA;
+}
+
+.content-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.block img {
+    margin-bottom: 10px;
+}
+
 .features .block {
     border: 1px solid #ddd;
     padding: 20px 15px;
 }
 
-.block img {
-    border: 1px solid #ddd;
-    padding: 5px;
-    margin-bottom: 10px;
-}
 .block p {
     text-align: justify;
 }
+
+.products .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.products img {
+    margin: 0 auto;
+    display: block;
+}
+
+.caption .title {
+    margin-top: 50px;
+}
+
+.caption p {
+    font-size: 1.1em;
+}
+
+.products .third p {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+    
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact .intro {
+    text-align: center;   
+}
+
+.contact .btn-success {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
 /*CONTENT END */
+
+/* FOOTER BEGIN */
+footer {
+    padding: 50px;
+}
+footer .links li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* FOOTER END */
