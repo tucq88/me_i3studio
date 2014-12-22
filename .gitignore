@@ -5,3 +5,5 @@ trunk/.buildpath
 trunk/.project
 trunk/.settings/org.eclipse.php.core.prefs
 *.DS_Store
+.DS_Store
+.idea/
