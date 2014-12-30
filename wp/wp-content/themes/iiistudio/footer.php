@@ -1,3 +1,6 @@
+<?php
+$tempUrl = get_template_directory_uri();
+?>
 <div id="f">
     <div class="container">
         <div class="row centered">
@@ -17,14 +20,14 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/retina-1.1.0.js"></script>
-<script src="assets/js/jquery.hoverdir.js"></script>
-<script src="assets/js/jquery.hoverex.min.js"></script>
-<script src="assets/js/jquery.prettyPhoto.js"></script>
-<script src="assets/js/jquery.isotope.min.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/jquery.min.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/retina-1.1.0.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/jquery.hoverdir.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/jquery.hoverex.min.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/jquery.prettyPhoto.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/jquery.isotope.min.js"></script>
+<script src="<?= $tempUrl ?>/assets/js/custom.js"></script>
 
 
 <script>

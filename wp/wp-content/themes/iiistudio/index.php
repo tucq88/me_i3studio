@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php
+get_header();
+$tempUrl = get_template_directory_uri();
+?>
 
 <div id="h">
     <div class="logo">
@@ -65,7 +68,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <img src="assets/img/items.png" class="img-responsive" alt="">
+            <img src="<?= $tempUrl ?>/assets/img/items.png" class="img-responsive" alt="">
         </div>
     </div>
     <!--/row-->
@@ -92,12 +95,12 @@
 
             <div class="portfolio-item graphic-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_09.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_09.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -112,12 +115,12 @@
 
             <div class="portfolio-item web-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_02.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_02.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -132,12 +135,12 @@
 
             <div class="portfolio-item graphic-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_03.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_03.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -152,12 +155,12 @@
 
             <div class="portfolio-item graphic-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_04.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_04.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -172,12 +175,12 @@
 
             <div class="portfolio-item books">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_05.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_05.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -192,12 +195,12 @@
 
             <div class="portfolio-item graphic-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_06.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_06.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -212,12 +215,12 @@
 
             <div class="portfolio-item web-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_07.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_07.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -232,12 +235,12 @@
 
             <div class="portfolio-item graphic-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_08.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_08.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -252,12 +255,12 @@
 
             <div class="portfolio-item graphic-design">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_01.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_01.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -272,12 +275,12 @@
 
             <div class="portfolio-item books">
                 <div class="he-wrap tpl6">
-                    <img src="assets/img/portfolio/portfolio_10.jpg" class="img-responsive" alt="">
+                    <img src="<?= $tempUrl ?>/assets/img/portfolio/portfolio_10.jpg" class="img-responsive" alt="">
 
                     <div class="he-view">
                         <div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-                            <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2"
+                            <a data-rel="prettyPhoto" href="<?= $tempUrl ?>/assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2"
                                data-animate="fadeInUp"><i class="ion-search"></i></a>
                             <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i
                                     class="ion-link"></i></a>
@@ -299,19 +302,19 @@
             <p class="mb">Some clients that I had the pleasure to working for.</p>
 
             <div class="col-sm-2 col-sm-offset-1">
-                <img src="assets/img/client1.png" alt="">
+                <img src="<?= $tempUrl ?>/assets/img/client1.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/client3.png" alt="">
+                <img src="<?= $tempUrl ?>/assets/img/client3.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/client2.png" alt="">
+                <img src="<?= $tempUrl ?>/assets/img/client2.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/client4.png" alt="">
+                <img src="<?= $tempUrl ?>/assets/img/client4.png" alt="">
             </div>
             <div class="col-sm-2">
-                <img src="assets/img/client5.png" alt="">
+                <img src="<?= $tempUrl ?>/assets/img/client5.png" alt="">
             </div>
         </div>
         <!--/row-->

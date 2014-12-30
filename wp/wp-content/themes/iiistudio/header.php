@@ -14,6 +14,7 @@ Text Domain: Null
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+$tempUrl = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,20 +24,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="icon" href="<?= $tempUrl ?>/assets/img/favicon.ico">
 
     <title>BASIC - Blacktie.co Free Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="<?= $tempUrl ?>/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="<?= $tempUrl ?>/assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="<?= $tempUrl ?>/assets/css/style.css" rel="stylesheet">
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="<?= $tempUrl ?>/assets/js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
