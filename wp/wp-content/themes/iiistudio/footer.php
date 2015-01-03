@@ -5,10 +5,15 @@ $tempUrl = get_template_directory_uri();
     <div class="container">
         <div class="row centered">
             <div class="col-md-8 col-md-offset-2">
-                <a href="#"><i class="ion-social-twitter"></i></a>
-                <a href="#"><i class="ion-social-dribbble"></i></a>
-                <a href="#"><i class="ion-social-instagram"></i></a>
-                <a href="#"><i class="ion-social-facebook"></i></a>
+                <a href="<?= get_field('twitter_url', 'option') ?>" target="_blank">
+                    <i class="ion-social-twitter"></i>
+                </a>
+                <a href="<?= get_field('facebook_url', 'option') ?>" target="_blank">
+                    <i class="ion-social-facebook"></i>
+                </a>
+                <a href="<?= get_field('linkedin_url', 'option') ?>" target="_blank">
+                    <i class="ion-social-linkedin"></i>
+                </a>
             </div>
             <!--/col-md-8-->
         </div>
@@ -29,8 +34,10 @@ $tempUrl = get_template_directory_uri();
 <script src="<?= $tempUrl ?>/assets/js/jquery.isotope.min.js"></script>
 <script src="<?= $tempUrl ?>/assets/js/custom.js"></script>
 
+<?php wp_footer(); ?>
 
-<script>
+<script type="text/javascript">
+    /* <![CDATA[ */
     // Portfolio
     (function ($) {
         "use strict";
@@ -110,6 +117,7 @@ $tempUrl = get_template_directory_uri();
             setPortfolio();
         });
     })(jQuery);
+    /* ]]> */
 </script>
 </body>
 </html>

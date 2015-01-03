@@ -17,22 +17,26 @@ Use it to make something cool, have fun, and share what you've learned with othe
 $tempUrl = get_template_directory_uri();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="<?= $tempUrl ?>/assets/img/favicon.ico">
+    <title><?php wp_title(); ?></title>
 
-    <title>BASIC - Blacktie.co Free Theme</title>
+    <!-- Document Link -->
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <!--<link rel="icon" href="<?/*= $tempUrl */?>/assets/img/favicon.ico">-->
 
     <!-- Bootstrap core CSS -->
     <link href="<?= $tempUrl ?>/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="<?= $tempUrl ?>/assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="<?= $tempUrl ?>/assets/css/animate.css" rel="stylesheet">
     <link href="<?= $tempUrl ?>/assets/css/style.css" rel="stylesheet">
 
 
@@ -44,6 +48,9 @@ $tempUrl = get_template_directory_uri();
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <?php //if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+    <?php wp_head(); ?>
 </head>
 
 <body>
